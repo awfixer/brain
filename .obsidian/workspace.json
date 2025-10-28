@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/root.md",
+                "file": "blog/content/My NixOS Config.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "root"
+              "title": "My NixOS Config"
             }
           }
         ]
@@ -157,7 +157,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "blog/root.md"
+                "file": "blog/content/My NixOS Config.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -204,6 +204,9 @@
   },
   "active": "1ca258f92288354b",
   "lastOpenFiles": [
+    "blog/content/Hello.md",
+    "blog/content/My NixOS Config.md",
+    "blog/root.md",
     "theautist/CLAUDE.md",
     "theautist/CLAUDE.md.tmp.81747.1761670671904",
     "theautist/app/projects/posts/modded-android.mdx",
@@ -221,7 +224,6 @@
     "theautist/public/README-ICONS.md",
     "theautist/README.md",
     "README.md",
-    "blog/root.md",
     "notes/Data Management.md",
     "notes/Data Broker Management.md",
     "SECURITY.md",

@@ -1,0 +1,1 @@
+[Config GitHub]: https://github.com/awfixers-stuff/nixos-config
