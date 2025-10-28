@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+    "packages": [
+      "nodejs@22",
+      "pnpm@latest",
+      "git"
+    ],
+    "shell": {
+      "init_hook": [
+        "echo '🚀 Next.js 15 development environment loaded!'",
+        "echo '📦 Node.js' $(node --version)",
+        "echo '📦 pnpm' $(pnpm --version)",
+        "echo ''",
+        "echo 'Available commands:'",
+        "echo '  pnpm dev     - Start development server'",
+        "echo '  pnpm build   - Build for production'",
+        "echo '  pnpm lint    - Run ESLint'",
+        "echo '  pnpm start   - Start production server'",
+        "echo '  pnpm prepare - Set up Husky git hooks'"
+      ],
+      "scripts": {
+        "dev": [
+          "pnpm dev"
+        ],
+        "build": [
+          "pnpm build"
+        ],
+        "start": [
+          "pnpm start"
+        ],
+        "lint": [
+          "pnpm lint"
+        ],
+        "prepare": [
+          "pnpm prepare"
+        ],
+        "install": [
+          "pnpm install"
+        ]
+      }
+    }
+  }
+  

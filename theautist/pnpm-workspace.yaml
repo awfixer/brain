@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@sentry/cli'
+  - '@vercel/speed-insights'
+  - bufferutil
+  - core-js
+  - esbuild
+  - sharp

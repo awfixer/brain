@@ -1,0 +1,73 @@
+---
+title: How?
+description: an overview of how this works
+publishedAt: 2030-01-01
+image: https://assets.awfixer.com/favorites/19.png
+link: https://theautist.md
+---
+
+[here]: https://github.com/awfixer/theautist/blob/main/app/projects/posts/how.mdx
+[AWFixer]: https://theautist.me
+[Friends]: https://awfixer.com
+[Sentry]: https://sentry.io
+
+# How these pages work
+
+so the pages are .mdx files, and this one is located [here]
+
+in each MDX file the first thing that you have is what is called the frontmatter, which is what allows me to tell you the title, description, and other basic info (like the author card ill be adding soon).
+
+```
+---
+title: AWFixerOS
+description: The OS for what comes next.
+publishedAt: 2025-10-25
+image: https://assets.awfixer.com/10.png
+link: https://awfixeros.site
+---
+```
+
+### Links
+
+Then you have the links section, which is where I add all the links that I use in the posts so that i am not always typing out `[here](https://this.link)`, which gets old after a while.
+
+```
+[Paper]: https://paper.modded-android.dev
+[Modded Android]: https://modded-android.dev
+[Discord]: https://inv.wtf/moddedandroid
+[GitHub]: https://github.com/modded-android
+[Gitlab]: https://gitlab.com/modded-android
+[Codeberg]: https://codeberg.org/modded-android
+[Gitea]: https://gitea.com/modded-android
+[AWFixer]: https://theautist.me
+[Friends]: https://awfixer.com
+[Sourcehut]: https://sourcehut.org
+[Samsung]: https://samsung.com
+[Google]: https://about.google
+[bad]: https://hackertalks.blog/dept-is-bad
+```
+
+# Sentry
+
+You then have the magic [Sentry] configuration
+
+```Typescript
+import * as Sentry from "@sentry/nextjs";
+
+Sentry.init({
+  dsn: "*",
+
+  tracesSampleRate: 1,
+
+  enableLogs: true,
+
+  sendDefaultPii: true,
+});
+```
+
+
+
+
+<br/>
+
+made with ❤️ by [AWFixer] and [Friends]

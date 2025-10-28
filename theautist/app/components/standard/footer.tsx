@@ -1,0 +1,105 @@
+function ArrowIcon() {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+export default function Footer() {
+  return (
+    <footer className="mb-16">
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-300 md:flex-row md:space-x-4 md:space-y-0">
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="/rss"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">rss</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/awfixer"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">github</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/awfixer/theautist"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">source</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://railway.com?referralCode=nyJTRu"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">railway</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://awfixer.com"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">AWFixer and Friends</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.digitalocean.com/?refcode=ff2ff3528450&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">Digital Ocean</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://legal.awfixer.com"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">Legal</p>
+          </a>
+        </li>
+      </ul>
+      <p className="mt-8 text-neutral-300">
+        © {new Date().getFullYear()} AWFixer. MIT Licensed
+      </p>
+    </footer>
+  );
+}

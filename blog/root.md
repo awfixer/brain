@@ -1,0 +1,1 @@
+This is the root file of my blog. This may get formed into a website one of these days, not to sure about that yet.

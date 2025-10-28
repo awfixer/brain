@@ -1,0 +1,34 @@
+import { ProjectList } from "app/components/standard/projects";
+
+export default function Page() {
+  return (
+    <section>
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter text-white">
+        My Portfolio
+      </h1>
+      <p className="mb-4">
+        {
+          "I'm just a simple developer, hell bent on changing the world. this is a simple site where I write things that i am thinking. no newsletter or anything crazy. You can join the discord using that button up there at the top."
+        }
+      </p>
+      <p className="mb-4">
+        {
+          "you can visit my blog hackertalks if you want to find out more information. This site is just infomation about me. there is digital ocean and railway referral links at the bottom of the page that help me if you click them"
+        }
+      </p>
+      <p className="mb-4">
+        {
+          "im the founder, lead engineer, and principle engineer for AWFixer and Friends, which is a company that is dedicated to fixing humanities issues, the planet, and building technology that sustains both. You should check it out, it is linked at the bottom of the page."
+        }
+      </p>
+      <p className="mb-4">
+        {
+          "it should also be known that I am working on ways to detect and block various bots that tend to scrape websites. The ways im playing with tend to be non-invasive though if you find youself blocked, mention that to me in my discord and I will do my best to locate your traffic and explain it you :)"
+        }
+      </p>
+      <div className="my-8">
+        <ProjectList limit={3} />
+      </div>
+    </section>
+  );
+}

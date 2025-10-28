@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "blog/root.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "root"
             }
           }
         ]
@@ -157,7 +157,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "README.md"
+                "file": "blog/root.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -204,12 +204,26 @@
   },
   "active": "1ca258f92288354b",
   "lastOpenFiles": [
+    "theautist/CLAUDE.md",
+    "theautist/CLAUDE.md.tmp.81747.1761670671904",
+    "theautist/app/projects/posts/modded-android.mdx",
+    "theautist/app/projects/posts/megaengine.mdx",
+    "theautist/app/projects/posts/how.mdx",
+    "theautist/app/projects/posts/awfixeros.mdx",
+    "theautist/app/blog/posts/modded-android.mdx",
+    "theautist/app/blog/posts/megaengine.mdx",
+    "theautist/app/blog/posts/how.mdx",
+    "theautist/app/blog/posts/awfixeros.mdx",
+    "theautist/app/projects/[slug]/page.tsx",
+    "theautist/public/safari-pinned-tab.svg",
+    "theautist/public/og-image.svg",
+    "theautist/public/favicon.svg",
+    "theautist/public/README-ICONS.md",
+    "theautist/README.md",
+    "README.md",
+    "blog/root.md",
     "notes/Data Management.md",
     "notes/Data Broker Management.md",
-    "Data_Management.md?ex=69023d27&is=6900eba7&hm=9f2582cd4480bcb667881320824b5d8e86e3770d1380281ff2904e1c81b0dc7e&",
-    "README.md",
-    "notes",
-    "blog",
     "SECURITY.md",
     "LICENSE.md",
     "Welcome.md"
