@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/content/My NixOS Config.md",
+                "file": "notes/Data Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My NixOS Config"
+              "title": "Data Management"
             }
           }
         ]
@@ -157,7 +157,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "blog/content/My NixOS Config.md"
+                "file": "notes/Data Management.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -204,6 +204,7 @@
   },
   "active": "1ca258f92288354b",
   "lastOpenFiles": [
+    "blog/content/My NixOS Config.md",
     "eslint.config.mts~",
     "eslint.config.mts",
     "renovate.json",
@@ -214,9 +215,7 @@
     "node_modules/@tailwindcss",
     "node_modules/@eslint",
     "node_modules",
-    "_tmp_84497_c778da6953b5634a5cd02c16142d8a0a",
     "blog/content/Hello.md",
-    "blog/content/My NixOS Config.md",
     "blog/root.md",
     "theautist/CLAUDE.md",
     "theautist/public/safari-pinned-tab.svg",
