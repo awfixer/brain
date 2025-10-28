@@ -9,6 +9,7 @@ import { defineConfig } from "eslint/config";
 export default defineConfig([
   {
     ignores: [
+      ".obsidian/**",    
       ".next/**",
       "node_modules/**",
       "out/**",
@@ -17,7 +18,6 @@ export default defineConfig([
       "build/**",
       "coverage/**",
       ".cache/**",
-      "theautist/**", // Duplicate directory
     ],
   },
   {
