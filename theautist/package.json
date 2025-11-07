@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "@flags-sdk/growthbook": "^0.1.0",
+    "@flags-sdk/growthbook": "^0.2.0",
     "@growthbook/growthbook-react": "^1.6.1",
     "@hookform/resolvers": "^5.2.2",
     "@octokit/rest": "^22.0.0",
